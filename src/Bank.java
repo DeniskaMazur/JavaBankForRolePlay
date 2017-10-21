@@ -80,12 +80,12 @@ public class Bank {
 
     }
 
-    public static void Pay(String client, String passord,String target, int count){
+    public static void Pay(String client, String password,String target, int count){
 
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, passord)){
+        if (checkPassword(passBase, client, password)){
             if (clientBase.get(client) >= count){
                 clientBase.put(client, clientBase.get(client) - count);
                 clientBase.put(target, clientBase.get(target) + count);
@@ -96,12 +96,12 @@ public class Bank {
 
     }
 
-    public static String GetBalance(String client, String passord){
+    public static String GetBalance(String client, String password){
 
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, passord))
+        if (checkPassword(passBase, client, password))
             return clientBase.get(client).toString();
         else {
             System.out.println("Wrong password.");
@@ -110,7 +110,7 @@ public class Bank {
 
     }
 
-    public static Boolean createNewClient(String name, String passord){
+    public static Boolean createNewClient(String name, String password){
 
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
@@ -119,7 +119,7 @@ public class Bank {
             if (key.equals(name)) return false;
         }
         clientBase.put(name, 0);
-        passBase.put(name, passord.hashCode());
+        passBase.put(name, password.hashCode());
 
         savePasswordsAndClients();
 
@@ -136,6 +136,23 @@ public class Bank {
             System.out.println(key);
 
         }
+
+    }
+
+    public static boolean changePassword(String client, String oldPassword, String newPassword){
+
+        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
+
+        if (checkPassword(passBase, client, oldPassword)){
+
+            passBase.put(client, newPassword.hashCode());
+            savePasswordsAndClients();
+            return true;
+
+        }
+
+        return false;
 
     }
 

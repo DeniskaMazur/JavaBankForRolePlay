@@ -12,13 +12,15 @@ public class Client {
             "get(syntax: get)(act: show your balance);\n" +
             "new(syntax: new)(act: create new user);\n" +
             "view(syntax: view)(act: show all clients of the bank);\n\n";
+    private static final String preMessage = "\nTo create new user print username and password, then use command \"new\"\n";
 
     public static void main(String[] args) {
-
+        System.out.println(preMessage);
         Console console = System.console();
         Scanner read = new Scanner(System.in);
 
         while (true){
+
             System.out.print("Enter your user name: ");
             client = read.nextLine();
             password = String.valueOf(console.readPassword("Enter password for " + client + ": "));
