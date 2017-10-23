@@ -85,12 +85,12 @@ public class Bank {
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, password)){
+        if (checkPassword(passBase, client, password) && isClient(target)){
             if (clientBase.get(client) >= count){
                 clientBase.put(client, clientBase.get(client) - count);
                 clientBase.put(target, clientBase.get(target) + count);
             } else System.out.println("Your balance is just " + clientBase.get(client) + ".");
-        } else System.out.println("Wrong password.");
+        } else System.out.println("Wrong password or there is no such target.");
 
         savePasswordsAndClients();
 
@@ -153,6 +153,26 @@ public class Bank {
         }
 
         return false;
+
+    }
+
+    public static boolean isClient(String client){
+
+        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        return !(clientBase.get(client) == null);
+
+    }
+
+    public static Boolean checkPassword(HashMap<String, Integer> base, String name, String password){
+
+        return (base.get(name) == password.hashCode());
+
+    }
+
+    public static Boolean checkPassword(String client, String password){
+
+        passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
+        return passBase.get(client) == password.hashCode();
 
     }
 
@@ -262,10 +282,5 @@ public class Bank {
 
     }
 
-    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password){
-
-        return (base.get(name) == password.hashCode());
-
-    }
 
 }
