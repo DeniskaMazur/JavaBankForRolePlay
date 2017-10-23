@@ -1,6 +1,4 @@
 import java.io.Console;
-import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Client {
@@ -99,7 +97,7 @@ public class Client {
 
     private static void printBalance(String userName, String password){
         String s = Bank.GetBalance(userName, password);
-        if (s != null) System.out.println("__YOUR BALANCE IS: " + Bank.GetBalance(userName, password));
+        if (s != null) System.out.println("YOUR BALANCE IS: " + Bank.GetBalance(userName, password));
     }
 
 }

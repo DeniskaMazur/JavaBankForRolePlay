@@ -163,7 +163,7 @@ public class Bank {
 
     }
 
-    public static Boolean checkPassword(HashMap<String, Integer> base, String name, String password){
+    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password){
 
         return (base.get(name) == password.hashCode());
 
