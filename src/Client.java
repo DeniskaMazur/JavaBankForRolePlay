@@ -23,7 +23,7 @@ public class Client {
             client = read.nextLine();
             password = String.valueOf(console.readPassword("Enter password for " + client + ": "));
             createIfNotCreated(client, password);
-            Boolean stop = Bank.checkPassword(client, password);
+            Boolean stop = Bank.checkPasswordNotConf(client, password, false);
 
             while (stop){
 
@@ -45,14 +45,14 @@ public class Client {
                         System.out.print("Enter count: ");
                         int count = read.nextInt();
                         read.nextLine(); //Bugging piece of shit
-                        if (Bank.isClient(target)) Bank.Pay(client, password, target , count);
+                        if (Bank.isClient(target)) Bank.Pay(client, password, target , count, false);
                         else System.out.println("There is no such target");
                         break;
                     }
 
                     case "change" : {
                         if (arguments[1].equals(password)){
-                            if (Bank.changePassword(client, password, arguments[2])){
+                            if (Bank.changePassword(client, password, arguments[2], false)){
                                 password = arguments[2];
                                 System.out.println("Password changed.");
                             } else {
@@ -96,8 +96,8 @@ public class Client {
     }
 
     private static void printBalance(String userName, String password){
-        String s = Bank.GetBalance(userName, password);
-        if (s != null) System.out.println("YOUR BALANCE IS: " + Bank.GetBalance(userName, password));
+        String s = Bank.GetBalance(userName, password, false);
+        if (s != null) System.out.println("YOUR BALANCE IS: " + Bank.GetBalance(userName, password, false));
     }
 
 }

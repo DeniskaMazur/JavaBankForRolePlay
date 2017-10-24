@@ -80,28 +80,32 @@ public class Bank {
 
     }
 
-    public static void Pay(String client, String password,String target, int count){
+    public static boolean Pay(String client, String password,String target, int count, Boolean hash){
 
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
+        Boolean act = false;
 
-        if (checkPassword(passBase, client, password) && isClient(target)){
+        if (checkPassword(passBase, client, password, hash) && isClient(target)){
             if (clientBase.get(client) >= count){
                 clientBase.put(client, clientBase.get(client) - count);
                 clientBase.put(target, clientBase.get(target) + count);
+                act = true;
             } else System.out.println("Your balance is just " + clientBase.get(client) + ".");
         } else System.out.println("Wrong password or there is no such target.");
 
         savePasswordsAndClients();
 
+        return act;
+
     }
 
-    public static String GetBalance(String client, String password){
+    public static String GetBalance(String client, String password, Boolean hash){
 
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, password))
+        if (checkPassword(passBase, client, password, hash))
             return clientBase.get(client).toString();
         else {
             System.out.println("Wrong password.");
@@ -139,12 +143,30 @@ public class Bank {
 
     }
 
-    public static boolean changePassword(String client, String oldPassword, String newPassword){
+    public static String viewAsStr(){
+
+        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        StringBuilder builder = new StringBuilder();
+
+        for (String key: clientBase.keySet()){
+
+            builder.append(key);
+            builder.append("_");
+
+        }
+
+        builder.deleteCharAt(builder.length() - 1);
+
+        return builder.toString();
+
+    }
+
+    public static boolean changePassword(String client, String oldPassword, String newPassword, Boolean hash){
 
         clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, oldPassword)){
+        if (checkPassword(passBase, client, oldPassword, hash)){
 
             passBase.put(client, newPassword.hashCode());
             savePasswordsAndClients();
@@ -163,16 +185,24 @@ public class Bank {
 
     }
 
-    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password){
+    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password, Boolean hash){
 
-        return (base.get(name) == password.hashCode());
+        if (hash){
+
+            return (Integer.toString(base.get(name)).equals(password));
+
+        }else {
+
+            return (base.get(name) == password.hashCode());
+
+        }
 
     }
 
-    public static Boolean checkPassword(String client, String password){
+    public static Boolean checkPasswordNotConf(String client, String password, Boolean hash){
 
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
-        return passBase.get(client) == password.hashCode();
+        return checkPassword(passBase, client, password, hash);
 
     }
 
