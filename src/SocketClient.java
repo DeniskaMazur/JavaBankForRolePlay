@@ -1,11 +1,14 @@
 import java.io.*;
 import java.net.Socket;
+import java.util.Arrays;
+import java.util.regex.Pattern;
 
 public class SocketClient extends Thread{
 
     private Socket client;
     private PrintWriter out;
     private BufferedReader in;
+    private Pattern outTrigger = Pattern.compile("out*.");
 
     public SocketClient(Socket client){
         this.client = client;
@@ -15,6 +18,7 @@ public class SocketClient extends Thread{
         }catch (IOException e){
             e.printStackTrace();
         }
+        run();
     }
 
     @Override
@@ -24,7 +28,12 @@ public class SocketClient extends Thread{
         try {
             while (true){
                 while (!in.ready()){}
-                manageAct(in.readLine());
+                String s = in.readLine();
+                if (outTrigger.matcher(s).matches()){
+                    Out();
+                    break;
+                }
+                manageAct(s);
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -35,9 +44,11 @@ public class SocketClient extends Thread{
 
         System.out.println("Message from " + client.getInetAddress() + ": " + message);
 
-        if (message.split("_").length < 6) message += "_null";
+        if (message.split("_").length < 5) message += "_null";
 
         String[] info = message.split("_");
+
+        System.out.println(Arrays.toString(info));
 
         switch (info[0]){
 
@@ -143,6 +154,14 @@ public class SocketClient extends Thread{
 
         System.out.println(msg);
         out.println(msg);
+
+    }
+
+    private void Out(){
+
+        try {
+            client.close();
+        }catch (IOException e){e.printStackTrace();}
 
     }
 

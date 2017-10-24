@@ -6,16 +6,18 @@ public class BankConnectionManager {
 
     public static void main(String[] args) {
 
+        ServerSocket place = null;
+        try{
+            place = new ServerSocket(1912);
+        } catch (IOException e) {e.printStackTrace();}
+
         while (true){
 
             try {
 
-                ServerSocket place = new ServerSocket(1912);
                 Socket client = place.accept();
                 System.out.println("Accepted.");
-                SocketClient seance = new SocketClient(client);
-                seance.run();
-
+                new SocketClient(client);
             }catch (IOException e){
                 e.printStackTrace();
             }
