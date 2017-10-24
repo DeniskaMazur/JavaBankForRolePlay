@@ -1,0 +1,56 @@
+0)_____________________________
+0_in_u_ivan_45368421
+
+0 - means that it's first type of acts
+
+in - means that it's log in act
+u - means that this log in act is using username
+ivan - it's user name
+45368421 - it's password hashcode
+
+0_in_c_471987236_70998132312
+
+0_in - -//-
+c - means that this log in act using rfid card
+471987236 - rfid card uid number
+70998132312 - password hashcode
+
+0_up_ivan_2984729384_29837423874
+
+up - means that it's sing up act
+ivan - user name
+2984729384 - rfid card uid
+29837423874 - password hashcode
+
+_________THROWING STATEMENTS___
+
+true/false_current balance
+
+1)_____________________________
+1_u_ivan_45368421_pay_serega-100
+
+1 - means that it's second type of acts
+
+u - means that this act using username
+ivan - username
+45368421 - password hashcode
+pay - name of act
+
+after it there are act arguments
+
+__________ARGUMENTS AND ACT_________
+
+pay_target client name-count of transaction (simple transaction)
+change_new password hashcode (change password)
+view (get list of bank users)
+
+_________THROWING STATEMENTS FOR ACTS
+
+pay
+true/false_current balance
+
+change
+true/false
+
+view
+client1_client2...
