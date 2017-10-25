@@ -1,27 +1,24 @@
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class BankConnectionManager {
 
-    public static void main(String[] args) {
-
-        ServerSocket place = null;
-        try{
-            place = new ServerSocket(1912);
-        } catch (IOException e) {e.printStackTrace();}
+    public static void main(String[] args) throws IOException{
 
         while (true){
-
+            System.out.println("start");
+            ServerSocket place = new ServerSocket(1912);
+            System.out.println("ready");
             try {
-
-                Socket client = place.accept();
-                System.out.println("Accepted.");
-                new SocketClient(client);
-            }catch (IOException e){
-                e.printStackTrace();
+                new SocketClient(place.accept());
+                System.out.println("acepted");
+            }finally {
+                place.close();
+                System.out.println("closed");
             }
-
         }
 
     }

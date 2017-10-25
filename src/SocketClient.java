@@ -11,6 +11,7 @@ public class SocketClient extends Thread{
     private Pattern outTrigger = Pattern.compile("out*.");
 
     public SocketClient(Socket client){
+        setDaemon(true);
         this.client = client;
         try {
             in = new BufferedReader(new InputStreamReader(client.getInputStream()));
@@ -18,7 +19,7 @@ public class SocketClient extends Thread{
         }catch (IOException e){
             e.printStackTrace();
         }
-        run();
+        start();
     }
 
     @Override
