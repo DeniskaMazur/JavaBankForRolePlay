@@ -118,7 +118,7 @@ public class SocketClient extends Thread{
 
     private void manageAct(String card_username, String name, String password, String act, String args){
 
-        String[] arguments = args.split("-");
+        String[] arguments = args.split("!");
         StringBuilder builder = new StringBuilder();
 
         switch (act){
