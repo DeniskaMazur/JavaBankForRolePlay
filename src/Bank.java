@@ -21,15 +21,15 @@ public class Bank {
 
     //_______bases___________________
 
-    private static HashMap<String, Integer> clientBase;
-    private static HashMap<String, Integer> passBase;
-    private static HashMap<String, Integer> uidBase;
+    private static HashMap<String, Long> clientBase;
+    private static HashMap<String, Long> passBase;
+    private static HashMap<String, Long> uidBase;
 
     //______configs__________________
 
     private static final Boolean EXIT_IF_BASE_CHANGED = true;
 
-    public static HashMap<String, Integer> conigBase(String fileName, String keyfile, String hashFile){
+    public static HashMap<String, Long> conigBase(String fileName, String keyfile, String hashFile){
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(new File(fileName)));
@@ -48,7 +48,7 @@ public class Bank {
         File base = new File(fileName);
         FileReader fileReader = null;
         BufferedReader reader;
-        HashMap<String, Integer> configed = new HashMap<String, Integer>();
+        HashMap<String, Long> configed = new HashMap<>();
 
         try {
             fileReader = new FileReader(base);
@@ -71,7 +71,7 @@ public class Bank {
                 String name = line.substring(0, line.indexOf(' '));
 
                 configed.put(name,
-                        Integer.parseInt(line.substring(line.indexOf(' ') + 1, line.length()))
+                        Long.parseLong(line.substring(line.indexOf(' ') + 1, line.length()))
                 );
 
             }
@@ -131,10 +131,10 @@ public class Bank {
         for (String key: clientBase.keySet()){
             if (key.equals(name)) return false;
         }
-        clientBase.put(name, 0);
-        if (hash){passBase.put(name, Integer.parseInt(password));}
-        else passBase.put(name, password.hashCode());
-        uidBase.put(name, Integer.parseInt(uid));
+        clientBase.put(name, 0L);
+        if (hash){passBase.put(name, Long.parseLong(password));}
+        else passBase.put(name, (long)password.hashCode());
+        uidBase.put(name, Long.parseLong(uid));
 
         savePasswordsAndClients();
 
@@ -168,7 +168,7 @@ public class Bank {
         if (checkPassword(passBase, client, oldPassword, hash, user_card)){
 
             if (user_card.equals(card_prefix)) client = getClientWithUid(client);
-            passBase.put(client, Integer.parseInt(newPassword));
+            passBase.put(client, Long.parseLong(newPassword));
             savePasswordsAndClients();
             return true;
 
@@ -188,13 +188,13 @@ public class Bank {
 
     }
 
-    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password, Boolean hash, String user_card){
+    private static Boolean checkPassword(HashMap<String, Long> base, String name, String password, Boolean hash, String user_card){
 
         if (user_card.equals(card_prefix)){name = getClientWithUid(name);}
 
         if (hash){
 
-            return (Integer.toString(base.get(name)).equals(password));
+            return (Long.toString(base.get(name)).equals(password));
 
         }else {
 
@@ -211,7 +211,7 @@ public class Bank {
 
     }
 
-    public static void Save(HashMap<String, Integer> map, String file, String keyfile){
+    public static void Save(HashMap<String, Long> map, String file, String keyfile){
 
         try {
             StringBuilder builder = new StringBuilder();
@@ -219,7 +219,7 @@ public class Bank {
                 String name = map.keySet().toArray()[i].toString();
                 builder.append(name + " " + map.get(name));
             }
-            saveInFile(Integer.toString(builder.toString().hashCode()), file, keyfile);
+            saveInFile(Long.toString(builder.toString().hashCode()), file, keyfile);
         }catch (Exception e){
             System.err.println("Problems with saving hash");
             System.exit(1);
@@ -230,7 +230,7 @@ public class Bank {
 
     }
 
-    public static void printAll(HashMap<String, Integer> map, String file){
+    public static void printAll(HashMap<String, Long> map, String file){
 
         StringBuilder builder = new StringBuilder();
 
