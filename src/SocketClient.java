@@ -45,7 +45,8 @@ public class SocketClient extends Thread{
 
         System.out.println("Message from " + client.getInetAddress() + ": " + message);
 
-        if (message.split("_").length < 5) message += "_null";
+        if (message.split("_").length <= 5) message += "_null";
+        System.out.println(message.split("_").length);
 
         String[] info = message.split("_");
 
@@ -91,12 +92,12 @@ public class SocketClient extends Thread{
 
         StringBuilder builder = new StringBuilder();
 
-        if (Bank.isClient(name)) {
+        if (Bank.isClient(name, card_username)) {
             System.out.println("name");
-            if (Bank.checkPasswordNotConf(name, password, true)){
+            if (Bank.checkPasswordNotConf(name, password, true, card_username)){
                 System.out.println("pass");
                 builder.append("true_");
-                builder.append(Bank.GetBalance(name, password, true));
+                builder.append(Bank.GetBalance(name, password, true, card_username));
             } else builder.append("false_0");
         } else builder.append("false_0");
 
@@ -108,7 +109,7 @@ public class SocketClient extends Thread{
 
         StringBuilder builder = new StringBuilder();
 
-        builder.append(Bank.createNewClient(name, password));
+        builder.append(Bank.createNewClient(name, uid, password, true));
         builder.append("_0");
 
         Throw(builder.toString());
@@ -124,16 +125,17 @@ public class SocketClient extends Thread{
 
             case "pay":{
 
-                builder.append(Bank.Pay(name, password, arguments[0], Integer.parseInt(arguments[1]), true));
+                builder.append(Bank.Pay(name, password, arguments[0], Integer.parseInt(arguments[1]), true, card_username));
                 builder.append("_");
-                builder.append(Bank.GetBalance(name, password, true));
+                builder.append(Bank.GetBalance(name, password, true, card_username));
                 break;
 
             }
 
             case "change":{
 
-                builder.append(Bank.changePassword(name, password, arguments[0], true));
+                System.out.println(arguments[0]);
+                builder.append(Bank.changePassword(name, password, arguments[0], true, card_username));
                 break;
 
             }

@@ -9,16 +9,21 @@ public class Bank {
 
     public static final String file = "ClientList";
     public static final String passFile = "ClientPasswordHashes";
-    private static final String ClientBaseHashFileName = "Hash";
+    private static final String clientBaseHashFileName = "Hash";
     private static final String keyfile = "openKey.key";
     private static final String algorithm ="DESede";
     private static final String passKeyfile = "passwordOpenKey.key";
     private static final String passBaseHashFileName = "PassHash";
+    private static final String cardUids = "cardUids";
+    private static final String CardUidsHashFileName = "CardUidsHashe";
+    private static final String uidKeyFile = "uidKeyFile.key";
+    private static final String card_prefix = "c";
 
     //_______bases___________________
 
     private static HashMap<String, Integer> clientBase;
     private static HashMap<String, Integer> passBase;
+    private static HashMap<String, Integer> uidBase;
 
     //______configs__________________
 
@@ -80,13 +85,14 @@ public class Bank {
 
     }
 
-    public static boolean Pay(String client, String password,String target, int count, Boolean hash){
+    public static boolean Pay(String client, String password,String target, int count, Boolean hash, String user_card){
 
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
         Boolean act = false;
 
-        if (checkPassword(passBase, client, password, hash) && isClient(target)){
+        if (checkPassword(passBase, client, password, hash, user_card) && isClient(target, "u")){
+            if (user_card.equals(card_prefix)) client = getClientWithUid(client);
             if (clientBase.get(client) >= count){
                 clientBase.put(client, clientBase.get(client) - count);
                 clientBase.put(target, clientBase.get(target) + count);
@@ -100,13 +106,15 @@ public class Bank {
 
     }
 
-    public static String GetBalance(String client, String password, Boolean hash){
+    public static String GetBalance(String client, String password, Boolean hash, String user_card){
 
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, password, hash))
+        if (checkPassword(passBase, client, password, hash, user_card)){
+            if (user_card.equals(card_prefix)) client = getClientWithUid(client);
             return clientBase.get(client).toString();
+        }
         else {
             System.out.println("Wrong password.");
             return null;
@@ -114,16 +122,19 @@ public class Bank {
 
     }
 
-    public static Boolean createNewClient(String name, String password){
+    public static Boolean createNewClient(String name, String uid, String password, Boolean hash){
 
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
+        uidBase = conigBase(cardUids, uidKeyFile, CardUidsHashFileName);
 
         for (String key: clientBase.keySet()){
             if (key.equals(name)) return false;
         }
         clientBase.put(name, 0);
-        passBase.put(name, password.hashCode());
+        if (hash){passBase.put(name, Integer.parseInt(password));}
+        else passBase.put(name, password.hashCode());
+        uidBase.put(name, Integer.parseInt(uid));
 
         savePasswordsAndClients();
 
@@ -131,21 +142,9 @@ public class Bank {
 
     }
 
-    public static void View(){
-
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
-
-        for (String key: clientBase.keySet()){
-
-            System.out.println(key);
-
-        }
-
-    }
-
     public static String viewAsStr(){
 
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         StringBuilder builder = new StringBuilder();
 
         for (String key: clientBase.keySet()){
@@ -161,14 +160,15 @@ public class Bank {
 
     }
 
-    public static boolean changePassword(String client, String oldPassword, String newPassword, Boolean hash){
+    public static boolean changePassword(String client, String oldPassword, String newPassword, Boolean hash, String user_card){
 
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
 
-        if (checkPassword(passBase, client, oldPassword, hash)){
+        if (checkPassword(passBase, client, oldPassword, hash, user_card)){
 
-            passBase.put(client, newPassword.hashCode());
+            if (user_card.equals(card_prefix)) client = getClientWithUid(client);
+            passBase.put(client, Integer.parseInt(newPassword));
             savePasswordsAndClients();
             return true;
 
@@ -178,14 +178,19 @@ public class Bank {
 
     }
 
-    public static boolean isClient(String client){
+    public static boolean isClient(String client, String user_card){
 
-        clientBase = conigBase(file, keyfile, ClientBaseHashFileName);
+        clientBase = conigBase(file, keyfile, clientBaseHashFileName);
+        System.out.println(client);
+        if (user_card.equals(card_prefix)){client = getClientWithUid(client);}
+        System.out.println(client);
         return !(clientBase.get(client) == null);
 
     }
 
-    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password, Boolean hash){
+    private static Boolean checkPassword(HashMap<String, Integer> base, String name, String password, Boolean hash, String user_card){
+
+        if (user_card.equals(card_prefix)){name = getClientWithUid(name);}
 
         if (hash){
 
@@ -199,10 +204,10 @@ public class Bank {
 
     }
 
-    public static Boolean checkPasswordNotConf(String client, String password, Boolean hash){
+    public static Boolean checkPasswordNotConf(String client, String password, Boolean hash, String user_card){
 
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
-        return checkPassword(passBase, client, password, hash);
+        return checkPassword(passBase, client, password, hash, user_card);
 
     }
 
@@ -305,12 +310,39 @@ public class Bank {
 
     private static void savePasswordsAndClients(){
 
+        conigIfNull();
+
         printAll(clientBase, file);
-        Save(clientBase, ClientBaseHashFileName, keyfile);
+        Save(clientBase, clientBaseHashFileName, keyfile);
         printAll(passBase, passFile);
         Save(passBase, passBaseHashFileName, passKeyfile);
+        printAll(uidBase, cardUids);
+        Save(uidBase, CardUidsHashFileName, uidKeyFile);
+
+    }
+
+    private static String getClientWithUid(String uid){
+
+        uidBase = conigBase(cardUids, uidKeyFile, CardUidsHashFileName);
+
+        for (String key : uidBase.keySet()) {
+
+            if (uidBase.get(key) == Integer.parseInt(uid)) return key;
+
+        }
+
+        return null;
+
+    }
+
+    private static void conigIfNull(){
+
+        if (clientBase == null) clientBase = conigBase(file, keyfile, clientBaseHashFileName);
+        if (passBase == null) passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
+        if (uidBase == null) uidBase = conigBase(cardUids, uidKeyFile, CardUidsHashFileName);
 
     }
 
 
 }
+;
