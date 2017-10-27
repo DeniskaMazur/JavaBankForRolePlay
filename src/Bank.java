@@ -93,7 +93,7 @@ public class Bank {
 
         if (checkPassword(passBase, client, password, hash, user_card) && isClient(target, "u")){
             if (user_card.equals(card_prefix)) client = getClientWithUid(client);
-            if (clientBase.get(client) >= count){
+            if ((clientBase.get(client) >= count) && count > 0){
                 clientBase.put(client, clientBase.get(client) - count);
                 clientBase.put(target, clientBase.get(target) + count);
                 act = true;
