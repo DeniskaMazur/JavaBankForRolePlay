@@ -3,12 +3,12 @@ import javax.crypto.spec.DESedeKeySpec;
 import java.io.*;
 import java.util.HashMap;
 
-public class Bank {
+class Bank {
 
     //_______constants______________
 
-    public static final String file = "ClientList";
-    public static final String passFile = "ClientPasswordHashes";
+    private static final String file = "ClientList";
+    private static final String passFile = "ClientPasswordHashes";
     private static final String clientBaseHashFileName = "Hash";
     private static final String keyfile = "openKey.key";
     private static final String algorithm ="DESede";
@@ -29,7 +29,7 @@ public class Bank {
 
     private static final Boolean EXIT_IF_BASE_CHANGED = true;
 
-    public static HashMap<String, Long> conigBase(String fileName, String keyfile, String hashFile){
+    private static HashMap<String, Long> conigBase(String fileName, String keyfile, String hashFile){
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(new File(fileName)));
@@ -85,7 +85,7 @@ public class Bank {
 
     }
 
-    public static boolean Pay(String client, String password,String target, int count, Boolean hash, String user_card){
+    static boolean Pay(String client, String password,String target, int count, Boolean hash, String user_card){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
@@ -106,7 +106,7 @@ public class Bank {
 
     }
 
-    public static String GetBalance(String client, String password, Boolean hash, String user_card){
+    static String GetBalance(String client, String password, Boolean hash, String user_card){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
@@ -122,7 +122,7 @@ public class Bank {
 
     }
 
-    public static Boolean createNewClient(String name, String uid, String password, Boolean hash){
+    static Boolean createNewClient(String name, String uid, String password, Boolean hash){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
@@ -142,7 +142,7 @@ public class Bank {
 
     }
 
-    public static String viewAsStr(){
+    static String viewAsStr(){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         StringBuilder builder = new StringBuilder();
@@ -160,7 +160,7 @@ public class Bank {
 
     }
 
-    public static boolean changePassword(String client, String oldPassword, String newPassword, Boolean hash, String user_card){
+    static boolean changePassword(String client, String oldPassword, String newPassword, Boolean hash, String user_card){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
@@ -178,7 +178,7 @@ public class Bank {
 
     }
 
-    public static boolean isClient(String client, String user_card){
+    static boolean isClient(String client, String user_card){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
         System.out.println(client);
@@ -204,14 +204,14 @@ public class Bank {
 
     }
 
-    public static Boolean checkPasswordNotConf(String client, String password, Boolean hash, String user_card){
+    static Boolean checkPasswordNotConf(String client, String password, Boolean hash, String user_card){
 
         passBase = conigBase(passFile, passKeyfile, passBaseHashFileName);
         return checkPassword(passBase, client, password, hash, user_card);
 
     }
 
-    public static void Save(HashMap<String, Long> map, String file, String keyfile){
+    private static void Save(HashMap<String, Long> map, String file, String keyfile){
 
         try {
             StringBuilder builder = new StringBuilder();
@@ -230,7 +230,7 @@ public class Bank {
 
     }
 
-    public static void printAll(HashMap<String, Long> map, String file){
+    private static void printAll(HashMap<String, Long> map, String file){
 
         StringBuilder builder = new StringBuilder();
 
@@ -302,7 +302,7 @@ public class Bank {
             return secret;
 
         }
-        catch (Exception e) {}
+        catch (Exception e) {e.printStackTrace();}
 
         return null;
 
