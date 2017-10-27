@@ -15,7 +15,7 @@ public class Bank {
     private static final String passKeyfile = "passwordOpenKey.key";
     private static final String passBaseHashFileName = "PassHash";
     private static final String cardUids = "cardUids";
-    private static final String CardUidsHashFileName = "CardUidsHashe";
+    private static final String CardUidsHashFileName = "CardUidsHash";
     private static final String uidKeyFile = "uidKeyFile.key";
     private static final String card_prefix = "c";
 
