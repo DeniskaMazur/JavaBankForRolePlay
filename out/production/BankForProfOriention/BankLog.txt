@@ -1,0 +1,8 @@
+Sat Oct 28 19:24:33 MSK 2017_/192.168.42.56_STARTED
+Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_message: 0_in_u_ivan_-257463466
+Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_split: [0, in, u, ivan, -257463466, null]
+Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_name coincided: ivan
+Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_password coincided: -257463466
+Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_sended: true_99999
+Sat Oct 28 19:24:46 MSK 2017_/192.168.42.56_closing
+Sat Oct 28 19:24:46 MSK 2017_/192.168.42.56_closed

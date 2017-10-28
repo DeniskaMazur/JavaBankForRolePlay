@@ -159,7 +159,9 @@ public class SocketClient extends Thread{
     private void Out(){
 
         try {
+            Log.print("closing", client);
             client.close();
+            Log.print("closed", client);
         }catch (IOException e){e.printStackTrace();}
 
     }

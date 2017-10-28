@@ -13,6 +13,7 @@ public class BankConnectionManager {
             System.out.println(InetAddress.getLocalHost());
             try {
                 new SocketClient(place.accept());
+                System.out.println("One more client connected.");
             }finally {
                 place.close();
             }
