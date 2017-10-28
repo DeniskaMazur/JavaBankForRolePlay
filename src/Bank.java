@@ -97,8 +97,8 @@ class Bank {
                 clientBase.put(client, clientBase.get(client) - count);
                 clientBase.put(target, clientBase.get(target) + count);
                 act = true;
-            } else System.out.println("Your balance is just " + clientBase.get(client) + ".");
-        } else System.out.println("Wrong password or there is no such target.");
+            }
+        }
 
         savePasswordsAndClients();
 
@@ -116,7 +116,6 @@ class Bank {
             return clientBase.get(client).toString();
         }
         else {
-            System.out.println("Wrong password.");
             return null;
         }
 
@@ -181,9 +180,7 @@ class Bank {
     static boolean isClient(String client, String user_card){
 
         clientBase = conigBase(file, keyfile, clientBaseHashFileName);
-        System.out.println(client);
         if (user_card.equals(card_prefix)){client = getClientWithUid(client);}
-        System.out.println(client);
         return !(clientBase.get(client) == null);
 
     }
@@ -223,9 +220,6 @@ class Bank {
         }catch (Exception e){
             System.err.println("Problems with saving hash");
             System.exit(1);
-        }
-        finally {
-            System.out.println("Hash saved");
         }
 
     }

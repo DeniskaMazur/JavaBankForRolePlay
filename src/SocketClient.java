@@ -25,7 +25,7 @@ public class SocketClient extends Thread{
     @Override
     public void run() {
         super.run();
-        System.out.println("Seance with client " + client.getInetAddress() + " started.");
+        Log.print("STARTED", client);
         try {
             while (true){
                 while (!in.ready()){}
@@ -42,15 +42,12 @@ public class SocketClient extends Thread{
     }
 
     private void manageAct(String message){
+        Log.print("message: " + message, client);
 
-        System.out.println("Message from " + client.getInetAddress() + ": " + message);
-
-        if (message.split("_").length < 5) message += "_null";
-        System.out.println(message.split("_").length);
+        if (message.split("_").length <= 5) message += "_null";
 
         String[] info = message.split("_");
-
-        System.out.println(Arrays.toString(info));
+        Log.print("split: " + Arrays.toString(info), client);
 
         switch (info[0]){
 
@@ -93,9 +90,9 @@ public class SocketClient extends Thread{
         StringBuilder builder = new StringBuilder();
 
         if (Bank.isClient(name, card_username)) {
-            System.out.println("name");
+            Log.print("name coincided: " + name, client);
             if (Bank.checkPasswordNotConf(name, password, true, card_username)){
-                System.out.println("pass");
+                Log.print("password coincided: " + password, client);
                 builder.append("true_");
                 builder.append(Bank.GetBalance(name, password, true, card_username));
             } else builder.append("false_0");
@@ -134,7 +131,6 @@ public class SocketClient extends Thread{
 
             case "change":{
 
-                System.out.println(arguments[0]);
                 builder.append(Bank.changePassword(name, password, arguments[0], true, card_username));
                 break;
 
@@ -155,7 +151,7 @@ public class SocketClient extends Thread{
 
     private void Throw(String msg){
 
-        System.out.println(msg);
+        Log.print("sended: " + msg, client);
         out.println(msg);
 
     }
