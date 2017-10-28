@@ -45,7 +45,7 @@ public class SocketClient extends Thread{
 
         System.out.println("Message from " + client.getInetAddress() + ": " + message);
 
-        if (message.split("_").length <= 5) message += "_null";
+        if (message.split("_").length < 5) message += "_null";
         System.out.println(message.split("_").length);
 
         String[] info = message.split("_");

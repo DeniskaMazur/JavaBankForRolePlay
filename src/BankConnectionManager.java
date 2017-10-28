@@ -1,8 +1,6 @@
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.ServerSocket;
-import java.net.Socket;
 
 public class BankConnectionManager {
 
@@ -12,6 +10,7 @@ public class BankConnectionManager {
             System.out.println("start");
             ServerSocket place = new ServerSocket(1912);
             System.out.println("ready");
+            System.out.println(InetAddress.getLocalHost());
             try {
                 new SocketClient(place.accept());
                 System.out.println("acepted");
