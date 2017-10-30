@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d22153f-73b7-44cd-a86b-601b42a96439" name="Default" comment="start working with socket">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/Bank.class" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/Bank.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/CardUidsHash" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/CardUidsHash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/BankLog.txt" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/BankLog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/ClientList" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/ClientList" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/ClientPasswordHashes" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/ClientPasswordHashes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/Hash" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/Hash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/PassHash" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/PassHash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/cardUids" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/cardUids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/openKey.key" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/openKey.key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/passwordOpenKey.key" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/passwordOpenKey.key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BankForProfOriention/uidKeyFile.key" afterPath="$PROJECT_DIR$/out/production/BankForProfOriention/uidKeyFile.key" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bank.java" afterPath="$PROJECT_DIR$/src/Bank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SocketClient.java" afterPath="$PROJECT_DIR$/src/SocketClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="651">
+              <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SocketClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SocketClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-404">
-              <caret line="133" column="20" lean-forward="false" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+            <state relative-caret-position="772">
+              <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +160,8 @@
         <option value="$PROJECT_DIR$/out/production/BankForProfOriention/cardUids" />
         <option value="$PROJECT_DIR$/out/production/BankForProfOriention/ClientList" />
         <option value="$PROJECT_DIR$/out/production/BankForProfOriention/ClientPasswordHashes" />
-        <option value="$PROJECT_DIR$/src/Bank.java" />
         <option value="$PROJECT_DIR$/src/SocketClient.java" />
+        <option value="$PROJECT_DIR$/src/Bank.java" />
       </list>
     </option>
   </component>
@@ -757,16 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BankConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -779,8 +756,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="133" column="20" lean-forward="false" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+        <state relative-caret-position="772">
+          <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
