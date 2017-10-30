@@ -1,0 +1,3 @@
+color 2
+cd out\production\BankForProfOriention
+java BankConnectionManager

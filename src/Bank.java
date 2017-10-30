@@ -27,7 +27,7 @@ class Bank {
 
     //______configs__________________
 
-    private static final Boolean EXIT_IF_BASE_CHANGED = true;
+    private static final Boolean EXIT_IF_BASE_CHANGED = false;
 
     private static HashMap<String, Long> conigBase(String fileName, String keyfile, String hashFile){
 
@@ -129,6 +129,9 @@ class Bank {
 
         for (String key: clientBase.keySet()){
             if (key.equals(name)) return false;
+        }
+        for (String key: uidBase.keySet()){
+            if (uidBase.get(key).equals(uid)) return false;
         }
         clientBase.put(name, 0L);
         if (hash){passBase.put(name, Long.parseLong(password));}

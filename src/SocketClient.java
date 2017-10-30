@@ -9,6 +9,7 @@ public class SocketClient extends Thread{
     private PrintWriter out;
     private BufferedReader in;
     private Pattern outTrigger = Pattern.compile("out*.");
+    private static final String card = "c";
 
     public SocketClient(Socket client){
         setDaemon(true);
@@ -89,7 +90,9 @@ public class SocketClient extends Thread{
 
         StringBuilder builder = new StringBuilder();
 
-        if (Bank.isClient(name, card_username)) {
+        Boolean format = true;
+        if (card_username.equals(card)) format = checkFormat(password);
+        if (Bank.isClient(name, card_username) && format) {
             Log.print("name coincided: " + name, client);
             if (Bank.checkPasswordNotConf(name, password, true, card_username)){
                 Log.print("password coincided: " + password, client);
@@ -106,8 +109,10 @@ public class SocketClient extends Thread{
 
         StringBuilder builder = new StringBuilder();
 
-        builder.append(Bank.createNewClient(name, uid, password, true));
-        builder.append("_0");
+        if (checkFormat(uid)){
+            builder.append(Bank.createNewClient(name, uid, password, true));
+            builder.append("_0");
+        } else builder.append("false_0");
 
         Throw(builder.toString());
 
@@ -118,21 +123,28 @@ public class SocketClient extends Thread{
         String[] arguments = args.split("!");
         StringBuilder builder = new StringBuilder();
 
+        Boolean format = true;
+        if (card_username.equals(card_username)) format = checkFormat(password);
+
         switch (act){
 
             case "pay":{
 
-                builder.append(Bank.Pay(name, password, arguments[0], Integer.parseInt(arguments[1]), true, card_username));
-                builder.append("_");
-                builder.append(Bank.GetBalance(name, password, true, card_username));
-                break;
+                if (format){
+                    builder.append(Bank.Pay(name, password, arguments[0], Integer.parseInt(arguments[1]), true, card_username));
+                    builder.append("_");
+                    builder.append(Bank.GetBalance(name, password, true, card_username));
+                    break;
+                }
 
             }
 
             case "change":{
 
-                builder.append(Bank.changePassword(name, password, arguments[0], true, card_username));
-                break;
+                if (format){
+                    builder.append(Bank.changePassword(name, password, arguments[0], true, card_username));
+                    break;
+                }
 
             }
 
@@ -164,6 +176,14 @@ public class SocketClient extends Thread{
             Log.print("closed", client);
         }catch (IOException e){e.printStackTrace();}
 
+    }
+
+    private Boolean checkFormat(String integer){
+        Boolean format = true;
+        try {
+            Integer.parseInt(integer);
+        }catch (NumberFormatException e){format = false;}
+        return format;
     }
 
 }
