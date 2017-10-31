@@ -1,114 +1,56 @@
-Sat Oct 28 19:24:33 MSK 2017_/192.168.42.56_STARTED
-Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_message: 0_in_u_ivan_-257463466
-Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_split: [0, in, u, ivan, -257463466, null]
-Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_name coincided: ivan
-Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_password coincided: -257463466
-Sat Oct 28 19:24:37 MSK 2017_/192.168.42.56_sended: true_99999
-Sat Oct 28 19:24:46 MSK 2017_/192.168.42.56_closing
-Sat Oct 28 19:24:46 MSK 2017_/192.168.42.56_closed
-Sun Oct 29 20:05:19 MSK 2017_/192.168.42.56_STARTED
-Sun Oct 29 20:05:54 MSK 2017_/192.168.42.56_message: 0_in_u_ivan_-257463466
-Sun Oct 29 20:05:54 MSK 2017_/192.168.42.56_split: [0, in, u, ivan, -257463466, null]
-Sun Oct 29 20:05:55 MSK 2017_/192.168.42.56_name coincided: ivan
-Sun Oct 29 20:05:55 MSK 2017_/192.168.42.56_password coincided: -257463466
-Sun Oct 29 20:05:55 MSK 2017_/192.168.42.56_sended: true_99999
-Sun Oct 29 20:06:20 MSK 2017_/192.168.42.56_message: 0_in_u_Nikolai_2544
-Sun Oct 29 20:06:20 MSK 2017_/192.168.42.56_split: [0, in, u, Nikolai, 2544, null]
-Sun Oct 29 20:06:20 MSK 2017_/192.168.42.56_name coincided: Nikolai
-Sun Oct 29 20:06:20 MSK 2017_/192.168.42.56_sended: false_0
-Sun Oct 29 20:06:23 MSK 2017_/192.168.42.56_closing
-Sun Oct 29 20:06:23 MSK 2017_/192.168.42.56_closed
-Mon Oct 30 10:46:19 MSK 2017_/192.168.43.35_STARTED
-Mon Oct 30 10:46:25 MSK 2017_/192.168.43.35_message: 0_in_c_10418_46792755
-Mon Oct 30 10:46:25 MSK 2017_/192.168.43.35_split: [0, in, c, 10418, 46792755, null]
-Mon Oct 30 10:46:25 MSK 2017_/192.168.43.35_sended: false_0
-Mon Oct 30 10:46:39 MSK 2017_/192.168.43.35_message: 0_up_Zichi_10418_46792755
-Mon Oct 30 10:46:39 MSK 2017_/192.168.43.35_split: [0, up, Zichi, 10418, 46792755, null]
-Mon Oct 30 10:46:39 MSK 2017_/192.168.43.35_sended: true_0
-Mon Oct 30 10:46:39 MSK 2017_/192.168.43.35_closing
-Mon Oct 30 10:46:39 MSK 2017_/192.168.43.35_closed
-Mon Oct 30 10:47:52 MSK 2017_/192.168.43.35_STARTED
-Mon Oct 30 10:48:08 MSK 2017_/192.168.43.35_message: 0_in_c_10418_46792755
-Mon Oct 30 10:48:08 MSK 2017_/192.168.43.35_split: [0, in, c, 10418, 46792755, null]
-Mon Oct 30 10:48:08 MSK 2017_/192.168.43.35_name coincided: 10418
-Mon Oct 30 10:48:08 MSK 2017_/192.168.43.35_password coincided: 46792755
-Mon Oct 30 10:48:08 MSK 2017_/192.168.43.35_sended: true_0
-Mon Oct 30 10:48:18 MSK 2017_/192.168.43.35_closing
-Mon Oct 30 10:48:18 MSK 2017_/192.168.43.35_closed
-Mon Oct 30 10:48:18 MSK 2017_/192.168.43.35_STARTED
-Mon Oct 30 10:48:50 MSK 2017_/192.168.43.35_message: 0_in_c_5382_1596430239
-Mon Oct 30 10:48:50 MSK 2017_/192.168.43.35_split: [0, in, c, 5382, 1596430239, null]
-Mon Oct 30 10:48:50 MSK 2017_/192.168.43.35_name coincided: 5382
-Mon Oct 30 10:48:50 MSK 2017_/192.168.43.35_sended: false_0
-Mon Oct 30 10:49:20 MSK 2017_/192.168.43.35_message: 0_up_FRS_5382_1596430239
-Mon Oct 30 10:49:20 MSK 2017_/192.168.43.35_split: [0, up, FRS, 5382, 1596430239, null]
-Mon Oct 30 10:49:20 MSK 2017_/192.168.43.35_sended: true_0
-Mon Oct 30 10:49:20 MSK 2017_/192.168.43.35_closing
-Mon Oct 30 10:49:20 MSK 2017_/192.168.43.35_closed
-Mon Oct 30 10:49:20 MSK 2017_/192.168.43.35_STARTED
-Mon Oct 30 10:49:31 MSK 2017_/192.168.43.35_message: 0_in_c_5382_1596430239
-Mon Oct 30 10:49:31 MSK 2017_/192.168.43.35_split: [0, in, c, 5382, 1596430239, null]
-Mon Oct 30 10:49:31 MSK 2017_/192.168.43.35_name coincided: 5382
-Mon Oct 30 10:49:31 MSK 2017_/192.168.43.35_password coincided: 1596430239
-Mon Oct 30 10:49:31 MSK 2017_/192.168.43.35_sended: true_0
-Mon Oct 30 10:49:35 MSK 2017_/192.168.43.35_message: 1_c_5382_1596430239_view
-Mon Oct 30 10:49:35 MSK 2017_/192.168.43.35_split: [1, c, 5382, 1596430239, view, null]
-Mon Oct 30 10:49:35 MSK 2017_/192.168.43.35_sended: Zichi_FRS_ivan_Nikolai
-Mon Oct 30 10:49:49 MSK 2017_/192.168.43.35_message: 1_c_5382_1596430239_pay_Zichi!0
-Mon Oct 30 10:49:49 MSK 2017_/192.168.43.35_split: [1, c, 5382, 1596430239, pay, Zichi!0]
-Mon Oct 30 10:49:49 MSK 2017_/192.168.43.35_sended: false_0
-Mon Oct 30 13:05:35 MSK 2017_/192.168.40.89_STARTED
-Mon Oct 30 13:06:55 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_1596430239
-Mon Oct 30 13:06:55 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, 1596430239, null]
-Mon Oct 30 13:06:56 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:06:56 MSK 2017_/192.168.40.89_password coincided: 1596430239
-Mon Oct 30 13:06:56 MSK 2017_/192.168.40.89_sended: true_100000
-Mon Oct 30 13:07:05 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_1596430239
-Mon Oct 30 13:07:05 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, 1596430239, null]
-Mon Oct 30 13:07:05 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:07:05 MSK 2017_/192.168.40.89_password coincided: 1596430239
-Mon Oct 30 13:07:05 MSK 2017_/192.168.40.89_sended: true_100000
-Mon Oct 30 13:07:39 MSK 2017_/192.168.40.89_message: 1_u_FRS_1596430239_pay_Nikolai!1
-Mon Oct 30 13:07:39 MSK 2017_/192.168.40.89_split: [1, u, FRS, 1596430239, pay, Nikolai!1]
-Mon Oct 30 13:07:39 MSK 2017_/192.168.40.89_sended: true_99999
-Mon Oct 30 13:07:44 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_1596430239
-Mon Oct 30 13:07:44 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, 1596430239, null]
-Mon Oct 30 13:07:44 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:07:44 MSK 2017_/192.168.40.89_password coincided: 1596430239
-Mon Oct 30 13:07:44 MSK 2017_/192.168.40.89_sended: true_99999
-Mon Oct 30 13:07:46 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_1596430239
-Mon Oct 30 13:07:46 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, 1596430239, null]
-Mon Oct 30 13:07:46 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:07:46 MSK 2017_/192.168.40.89_password coincided: 1596430239
-Mon Oct 30 13:07:46 MSK 2017_/192.168.40.89_sended: true_99999
-Mon Oct 30 13:07:47 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_1596430239
-Mon Oct 30 13:07:47 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, 1596430239, null]
-Mon Oct 30 13:07:47 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:07:47 MSK 2017_/192.168.40.89_password coincided: 1596430239
-Mon Oct 30 13:07:47 MSK 2017_/192.168.40.89_sended: true_99999
-Mon Oct 30 13:08:26 MSK 2017_/192.168.40.89_message: 1_u_Nikolai_-946852072_pay_FRS!1
-Mon Oct 30 13:08:26 MSK 2017_/192.168.40.89_split: [1, u, Nikolai, -946852072, pay, FRS!1]
-Mon Oct 30 13:08:26 MSK 2017_/192.168.40.89_sended: true_0
-Mon Oct 30 13:09:54 MSK 2017_/192.168.40.89_message: 1_u_FRS_1596430239_change_-257463466
-Mon Oct 30 13:09:54 MSK 2017_/192.168.40.89_split: [1, u, FRS, 1596430239, change, -257463466]
-Mon Oct 30 13:09:54 MSK 2017_/192.168.40.89_sended: true
-Mon Oct 30 13:09:58 MSK 2017_/192.168.40.89_message: 1_u_FRS_1596430239_change_-257463466
-Mon Oct 30 13:09:58 MSK 2017_/192.168.40.89_split: [1, u, FRS, 1596430239, change, -257463466]
-Mon Oct 30 13:09:58 MSK 2017_/192.168.40.89_sended: false
-Mon Oct 30 13:10:23 MSK 2017_/192.168.40.89_message: 0_in_c_FRS_1596430239
-Mon Oct 30 13:10:23 MSK 2017_/192.168.40.89_split: [0, in, c, FRS, 1596430239, null]
-Mon Oct 30 13:10:43 MSK 2017_/192.168.40.89_STARTED
-Mon Oct 30 13:10:48 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_1596430239
-Mon Oct 30 13:10:48 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, 1596430239, null]
-Mon Oct 30 13:10:49 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:10:49 MSK 2017_/192.168.40.89_sended: false_0
-Mon Oct 30 13:11:11 MSK 2017_/192.168.40.89_message: 0_in_u_FRS_-257463466
-Mon Oct 30 13:11:11 MSK 2017_/192.168.40.89_split: [0, in, u, FRS, -257463466, null]
-Mon Oct 30 13:11:11 MSK 2017_/192.168.40.89_name coincided: FRS
-Mon Oct 30 13:11:11 MSK 2017_/192.168.40.89_password coincided: -257463466
-Mon Oct 30 13:11:11 MSK 2017_/192.168.40.89_sended: true_100000
-Mon Oct 30 13:11:34 MSK 2017_/192.168.40.89_closing
-Mon Oct 30 13:11:34 MSK 2017_/192.168.40.89_closed
-Mon Oct 30 13:31:40 MSK 2017_/192.168.40.89_STARTED
-Mon Oct 30 13:31:57 MSK 2017_/192.168.40.89_message: 0_in_c_FRS_123123
-Mon Oct 30 13:31:57 MSK 2017_/192.168.40.89_split: [0, in, c, FRS, 123123, null]
+Tue Oct 31 14:08:11 MSK 2017_STARTED
+Tue Oct 31 14:08:11 MSK 2017_Socket configuration: adders = 0.0.0.0/0.0.0.0 port = 1912
+Tue Oct 31 14:09:12 MSK 2017_STARTED
+Tue Oct 31 14:09:12 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
+Tue Oct 31 14:09:15 MSK 2017_One more client connected.
+Tue Oct 31 14:09:15 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
+Tue Oct 31 14:09:15 MSK 2017_/192.168.43.6_STARTED
+Tue Oct 31 14:09:48 MSK 2017_SERVER STARTED
+Tue Oct 31 14:09:48 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
+Tue Oct 31 14:09:50 MSK 2017_One more client connected.
+Tue Oct 31 14:09:50 MSK 2017_/192.168.43.6_STARTED
+Tue Oct 31 14:09:50 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
+Tue Oct 31 14:10:55 MSK 2017_Key: port configed with value: 1912
+Tue Oct 31 14:10:55 MSK 2017_SERVER STARTED
+Tue Oct 31 14:10:55 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
+Tue Oct 31 14:10:56 MSK 2017_One more client connected.
+Tue Oct 31 14:10:56 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
+Tue Oct 31 14:10:56 MSK 2017_/192.168.43.6_STARTED
+Tue Oct 31 14:11:21 MSK 2017_/192.168.43.6_message: 0_in_u_ivan_-257463466
+Tue Oct 31 14:11:21 MSK 2017_/192.168.43.6_split: [0, in, u, ivan, -257463466, null]
+Tue Oct 31 14:11:21 MSK 2017_Key: clientList configed with value: ClientList
+Tue Oct 31 14:11:21 MSK 2017_Key: passFile configed with value: ClientPasswordHashes
+Tue Oct 31 14:11:21 MSK 2017_Key: clientBaseHashFileName configed with value: Hash
+Tue Oct 31 14:11:21 MSK 2017_Key: keyfile configed with value: openKey.key
+Tue Oct 31 14:11:21 MSK 2017_Key: algorithm configed with value: DESede
+Tue Oct 31 14:11:21 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key
+Tue Oct 31 14:11:21 MSK 2017_Key: passBaseHashFileName configed with value: PassHash
+Tue Oct 31 14:11:21 MSK 2017_Key: cardUids configed with value: cardUids
+Tue Oct 31 14:11:21 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash
+Tue Oct 31 14:11:21 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key
+Tue Oct 31 14:11:21 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true
+Tue Oct 31 14:11:21 MSK 2017_/192.168.43.6_sended: false_0
+Tue Oct 31 14:11:53 MSK 2017_/192.168.43.6_closing
+Tue Oct 31 14:11:53 MSK 2017_/192.168.43.6_closed
+Tue Oct 31 14:14:18 MSK 2017_Key: port configed with value: 1912___ss
+Tue Oct 31 14:14:18 MSK 2017_SERVER STARTED___ss
+Tue Oct 31 14:14:18 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912___ss
+Tue Oct 31 14:14:25 MSK 2017_One more client connected.___ss
+Tue Oct 31 14:14:25 MSK 2017_/192.168.43.6_STARTED___pr
+Tue Oct 31 14:14:25 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912___ss
+Tue Oct 31 14:14:36 MSK 2017_/192.168.43.6_message: 0_in_u_ivan_-257463466___pr
+Tue Oct 31 14:14:36 MSK 2017_/192.168.43.6_split: [0, in, u, ivan, -257463466, null]___pr
+Tue Oct 31 14:14:36 MSK 2017_Key: clientList configed with value: ClientList___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: passFile configed with value: ClientPasswordHashes___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: clientBaseHashFileName configed with value: Hash___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: keyfile configed with value: openKey.key___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: algorithm configed with value: DESede___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: passBaseHashFileName configed with value: PassHash___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: cardUids configed with value: cardUids___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key___ss
+Tue Oct 31 14:14:36 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true___ss
+Tue Oct 31 14:14:36 MSK 2017_/192.168.43.6_sended: false_0___pr
+Tue Oct 31 14:14:56 MSK 2017_/192.168.43.6_closing___pr
+Tue Oct 31 14:14:56 MSK 2017_/192.168.43.6_closed___pr

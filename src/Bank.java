@@ -7,16 +7,6 @@ class Bank {
 
     //_______constants______________
 
-    private static final String file = "ClientList";
-    private static final String passFile = "ClientPasswordHashes";
-    private static final String clientBaseHashFileName = "Hash";
-    private static final String keyfile = "openKey.key";
-    private static final String algorithm ="DESede";
-    private static final String passKeyfile = "passwordOpenKey.key";
-    private static final String passBaseHashFileName = "PassHash";
-    private static final String cardUids = "cardUids";
-    private static final String CardUidsHashFileName = "CardUidsHash";
-    private static final String uidKeyFile = "uidKeyFile.key";
     private static final String card_prefix = "c";
 
     //_______bases___________________
@@ -27,7 +17,17 @@ class Bank {
 
     //______configs__________________
 
-    private static final Boolean EXIT_IF_BASE_CHANGED = false;
+    private static String clientList;
+    private static String passFile;
+    private static String clientBaseHashFileName;
+    private static String keyfile;
+    private static String algorithm;
+    private static String passKeyfile;
+    private static String passBaseHashFileName;
+    private static String cardUids;
+    private static String CardUidsHashFileName;
+    private static String uidKeyFile;
+    private static Boolean EXIT_IF_BASE_CHANGED;
 
     private static HashMap<String, Long> configBase(String fileName, String keyfile, String hashFile){
 
@@ -57,7 +57,7 @@ class Bank {
                 base.createNewFile();
                 fileReader = new FileReader(base);
             }catch (IOException u){
-                System.err.println("Problems with access or creating file (ClientList)");
+                System.err.println("Problems with access or creating clientList (ClientList)");
                 System.exit(1);
             }
         }
@@ -87,7 +87,8 @@ class Bank {
 
     static boolean Pay(String client, String password,String target, int count, Boolean hash, String user_card){
 
-        clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         passBase = configBase(passFile, passKeyfile, passBaseHashFileName);
         Boolean act = false;
 
@@ -108,7 +109,8 @@ class Bank {
 
     static String GetBalance(String client, String password, Boolean hash, String user_card){
 
-        clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         passBase = configBase(passFile, passKeyfile, passBaseHashFileName);
 
         if (checkPassword(passBase, client, password, hash, user_card)){
@@ -123,7 +125,8 @@ class Bank {
 
     static Boolean createNewClient(String name, String uid, String password, Boolean hash){
 
-        clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         passBase = configBase(passFile, passKeyfile, passBaseHashFileName);
         uidBase = configBase(cardUids, uidKeyFile, CardUidsHashFileName);
 
@@ -146,7 +149,8 @@ class Bank {
 
     static String viewAsStr(){
 
-        clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         StringBuilder builder = new StringBuilder();
 
         for (String key: clientBase.keySet()){
@@ -164,7 +168,8 @@ class Bank {
 
     static boolean changePassword(String client, String oldPassword, String newPassword, Boolean hash, String user_card){
 
-        clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         passBase = configBase(passFile, passKeyfile, passBaseHashFileName);
 
         if (checkPassword(passBase, client, oldPassword, hash, user_card)){
@@ -182,7 +187,8 @@ class Bank {
 
     static boolean isClient(String client, String user_card){
 
-        clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         if (user_card.equals(card_prefix)){client = getClientWithUid(client);}
         return !(clientBase.get(client) == null);
 
@@ -206,6 +212,7 @@ class Bank {
 
     static Boolean checkPasswordNotConf(String client, String password, Boolean hash, String user_card){
 
+        configVariables();
         passBase = configBase(passFile, passKeyfile, passBaseHashFileName);
         return checkPassword(passBase, client, password, hash, user_card);
 
@@ -272,7 +279,7 @@ class Bank {
             oos.close();
 
         }catch (Exception e){
-            System.err.println("Problems with cipher file.");
+            System.err.println("Problems with cipher clientList.");
         }
 
     }
@@ -309,7 +316,7 @@ class Bank {
 
         conigIfNull();
 
-        printAll(clientBase, file);
+        printAll(clientBase, clientList);
         Save(clientBase, clientBaseHashFileName, keyfile);
         printAll(passBase, passFile);
         Save(passBase, passBaseHashFileName, passKeyfile);
@@ -320,6 +327,7 @@ class Bank {
 
     private static String getClientWithUid(String uid){
 
+        configVariables();
         uidBase = configBase(cardUids, uidKeyFile, CardUidsHashFileName);
 
         for (String key : uidBase.keySet()) {
@@ -334,11 +342,27 @@ class Bank {
 
     private static void conigIfNull(){
 
-        if (clientBase == null) clientBase = configBase(file, keyfile, clientBaseHashFileName);
+        configVariables();
+        if (clientBase == null) clientBase = configBase(clientList, keyfile, clientBaseHashFileName);
         if (passBase == null) passBase = configBase(passFile, passKeyfile, passBaseHashFileName);
         if (uidBase == null) uidBase = configBase(cardUids, uidKeyFile, CardUidsHashFileName);
 
     }
 
+    private static void configVariables(){
+
+        clientList = Configurator.config("clientList");
+        passFile = Configurator.config("passFile");
+        clientBaseHashFileName = Configurator.config("clientBaseHashFileName");
+        keyfile = Configurator.config("keyfile");
+        algorithm = Configurator.config("algorithm");
+        passKeyfile = Configurator.config("passKeyfile");
+        passBaseHashFileName = Configurator.config("passBaseHashFileName");
+        cardUids = Configurator.config("cardUids");
+        CardUidsHashFileName = Configurator.config("CardUidsHashFileName");
+        uidKeyFile = Configurator.config("uidKeyFile");
+        EXIT_IF_BASE_CHANGED = Configurator.config("EXIT_IF_BASE_CHANGED").equals("true");
+
+    }
 
 }

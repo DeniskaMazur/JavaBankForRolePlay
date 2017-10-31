@@ -1,3 +1,3 @@
-color 2
+color 1a
 cd out\production\BankForProfOriention
 java BankConnectionManager

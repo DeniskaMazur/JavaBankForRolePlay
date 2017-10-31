@@ -1,0 +1,12 @@
+clientList=ClientList
+passFile=ClientPasswordHashes
+clientBaseHashFileName=Hash
+keyfile=openKey.key
+algorithm=DESede
+passKeyfile=passwordOpenKey.key
+passBaseHashFileName=PassHash
+cardUids=cardUids
+CardUidsHashFileName=CardUidsHash
+uidKeyFile=uidKeyFile.key
+EXIT_IF_BASE_CHANGED=true
+port=1912

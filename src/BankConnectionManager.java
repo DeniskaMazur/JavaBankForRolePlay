@@ -6,14 +6,15 @@ public class BankConnectionManager {
 
     public static void main(String[] args) throws IOException{
 
-        System.out.println("START");
+        int port = Integer.parseInt(Configurator.config("port"));
 
+        Log.sPrint("SERVER STARTED");
         while (true){
-            ServerSocket place = new ServerSocket(1912);
-            System.out.println(InetAddress.getLocalHost());
+            ServerSocket place = new ServerSocket(port);
+            Log.sPrint("Socket configuration: adders = " + InetAddress.getLocalHost() + " port = " + port);
             try {
                 new SocketClient(place.accept());
-                System.out.println("One more client connected.");
+                Log.sPrint("One more client connected.");
             }finally {
                 place.close();
             }
