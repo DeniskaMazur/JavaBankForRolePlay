@@ -8,11 +8,11 @@ import java.util.regex.Pattern;
 public class Log {
 
     private static final String logFileName = "BankLog.txt";
-    private static final Pattern postFix = Pattern.compile(".*.___pr");
+    private static final Pattern postFix = Pattern.compile(".*.!!!pr");
 
     public static void print(String s, Socket socket){
 
-        String data = socket.getInetAddress() + "_" + s + "___pr";
+        String data = socket.getInetAddress() + "_" + s + "!!!pr";
         sPrint(data);
 
     }
@@ -20,7 +20,7 @@ public class Log {
     public static void sPrint(String s){
 
         String date = Calendar.getInstance().getTime().toString();
-        if (!postFix.matcher(s).matches()) s += "___ss";
+        if (!postFix.matcher(s).matches()) s += "!!!ss";
         String data = date + "_" + s;
         try {
             FileWriter logWriter = new FileWriter(new File(logFileName), true);

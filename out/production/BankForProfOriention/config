@@ -8,5 +8,5 @@ passBaseHashFileName=PassHash
 cardUids=cardUids
 CardUidsHashFileName=CardUidsHash
 uidKeyFile=uidKeyFile.key
-EXIT_IF_BASE_CHANGED=true
+EXIT_IF_BASE_CHANGED=false
 port=1912

@@ -134,7 +134,7 @@ class Bank {
             if (key.equals(name)) return false;
         }
         for (String key: uidBase.keySet()){
-            if (uidBase.get(key).equals(uid)) return false;
+            if (uidBase.get(key).toString().equals(uid)) return false;
         }
         clientBase.put(name, 0L);
         if (hash){passBase.put(name, Long.parseLong(password));}
