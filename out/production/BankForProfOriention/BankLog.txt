@@ -1,37 +1,3 @@
-Tue Oct 31 14:08:11 MSK 2017_STARTED
-Tue Oct 31 14:08:11 MSK 2017_Socket configuration: adders = 0.0.0.0/0.0.0.0 port = 1912
-Tue Oct 31 14:09:12 MSK 2017_STARTED
-Tue Oct 31 14:09:12 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
-Tue Oct 31 14:09:15 MSK 2017_One more client connected.
-Tue Oct 31 14:09:15 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
-Tue Oct 31 14:09:15 MSK 2017_/192.168.43.6_STARTED
-Tue Oct 31 14:09:48 MSK 2017_SERVER STARTED
-Tue Oct 31 14:09:48 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
-Tue Oct 31 14:09:50 MSK 2017_One more client connected.
-Tue Oct 31 14:09:50 MSK 2017_/192.168.43.6_STARTED
-Tue Oct 31 14:09:50 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
-Tue Oct 31 14:10:55 MSK 2017_Key: port configed with value: 1912
-Tue Oct 31 14:10:55 MSK 2017_SERVER STARTED
-Tue Oct 31 14:10:55 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
-Tue Oct 31 14:10:56 MSK 2017_One more client connected.
-Tue Oct 31 14:10:56 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912
-Tue Oct 31 14:10:56 MSK 2017_/192.168.43.6_STARTED
-Tue Oct 31 14:11:21 MSK 2017_/192.168.43.6_message: 0_in_u_ivan_-257463466
-Tue Oct 31 14:11:21 MSK 2017_/192.168.43.6_split: [0, in, u, ivan, -257463466, null]
-Tue Oct 31 14:11:21 MSK 2017_Key: clientList configed with value: ClientList
-Tue Oct 31 14:11:21 MSK 2017_Key: passFile configed with value: ClientPasswordHashes
-Tue Oct 31 14:11:21 MSK 2017_Key: clientBaseHashFileName configed with value: Hash
-Tue Oct 31 14:11:21 MSK 2017_Key: keyfile configed with value: openKey.key
-Tue Oct 31 14:11:21 MSK 2017_Key: algorithm configed with value: DESede
-Tue Oct 31 14:11:21 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key
-Tue Oct 31 14:11:21 MSK 2017_Key: passBaseHashFileName configed with value: PassHash
-Tue Oct 31 14:11:21 MSK 2017_Key: cardUids configed with value: cardUids
-Tue Oct 31 14:11:21 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash
-Tue Oct 31 14:11:21 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key
-Tue Oct 31 14:11:21 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true
-Tue Oct 31 14:11:21 MSK 2017_/192.168.43.6_sended: false_0
-Tue Oct 31 14:11:53 MSK 2017_/192.168.43.6_closing
-Tue Oct 31 14:11:53 MSK 2017_/192.168.43.6_closed
 Tue Oct 31 14:14:18 MSK 2017_Key: port configed with value: 1912___ss
 Tue Oct 31 14:14:18 MSK 2017_SERVER STARTED___ss
 Tue Oct 31 14:14:18 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912___ss
