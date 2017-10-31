@@ -20,3 +20,6 @@ Tue Oct 31 14:14:36 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true
 Tue Oct 31 14:14:36 MSK 2017_/192.168.43.6_sended: false_0___pr
 Tue Oct 31 14:14:56 MSK 2017_/192.168.43.6_closing___pr
 Tue Oct 31 14:14:56 MSK 2017_/192.168.43.6_closed___pr
+Tue Oct 31 15:41:34 MSK 2017_Key: port configed with value: 1912___ss
+Tue Oct 31 15:41:34 MSK 2017_SERVER STARTED___ss
+Tue Oct 31 15:41:34 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.6 port = 1912___ss
