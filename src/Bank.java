@@ -351,6 +351,7 @@ class Bank {
 
     private static void configVariables(){
 
+        //add work with config file
         clientList = Configurator.config("clientList");
         passFile = Configurator.config("passFile");
         clientBaseHashFileName = Configurator.config("clientBaseHashFileName");
