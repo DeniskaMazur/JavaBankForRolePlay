@@ -175,7 +175,7 @@ class Bank {
         if (checkPassword(passBase, client, oldPassword, hash, user_card)){
 
             if (user_card.equals(card_prefix)) client = getClientWithUid(client);
-            passBase.put(client, Long.parseLong(newPassword));
+            passBase.put(client, Integer.toUnsignedLong(newPassword.hashCode()));
             savePasswordsAndClients();
             return true;
 
