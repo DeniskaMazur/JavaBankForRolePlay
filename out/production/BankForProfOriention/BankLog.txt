@@ -851,3 +851,739 @@ Tue Oct 31 19:46:28 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: fals
 Tue Oct 31 19:46:28 MSK 2017_/192.168.42.22_sended: true_98898!!!pr
 Tue Oct 31 19:46:32 MSK 2017_/192.168.42.22_closing!!!pr
 Tue Oct 31 19:46:32 MSK 2017_/192.168.42.22_closed!!!pr
+Wed Nov 01 10:43:12 MSK 2017_Key: port configed with value: 1912!!!ss
+Wed Nov 01 10:43:12 MSK 2017_SERVER STARTED!!!ss
+Wed Nov 01 10:43:12 MSK 2017_Socket configuration: adders = hatifnat/169.254.133.179 port = 1912!!!ss
+Wed Nov 01 12:49:24 MSK 2017_Key: port configed with value: 1912!!!ss
+Wed Nov 01 12:49:24 MSK 2017_SERVER STARTED!!!ss
+Wed Nov 01 12:49:24 MSK 2017_Socket configuration: adders = hatifnat/192.168.42.41 port = 1912!!!ss
+Wed Nov 01 12:50:05 MSK 2017_Key: port configed with value: 1912!!!ss
+Wed Nov 01 12:50:05 MSK 2017_SERVER STARTED!!!ss
+Wed Nov 01 12:50:05 MSK 2017_Socket configuration: adders = hatifnat/192.168.42.41 port = 1912!!!ss
+Wed Nov 01 12:50:11 MSK 2017_Key: port configed with value: 1912!!!ss
+Wed Nov 01 12:50:11 MSK 2017_SERVER STARTED!!!ss
+Wed Nov 01 12:50:11 MSK 2017_Socket configuration: adders = hatifnat/192.168.42.41 port = 1912!!!ss
+Wed Nov 01 15:28:03 MSK 2017_Key: port configed with value: 1912!!!ss
+Wed Nov 01 15:28:03 MSK 2017_SERVER STARTED!!!ss
+Wed Nov 01 15:28:03 MSK 2017_Socket configuration: adders = hatifnat/192.168.42.41 port = 1912!!!ss
+Thu Nov 02 10:46:11 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 10:46:11 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 10:46:11 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 10:48:10 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 10:48:10 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 10:48:10 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 10:50:23 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 10:50:23 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 10:50:23 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 10:50:47 MSK 2017_/192.168.40.17_message: 0_in_u_Ivan_1604525611!!!pr
+Thu Nov 02 10:50:47 MSK 2017_/192.168.40.17_split: [0, in, u, Ivan, 1604525611, null]!!!pr
+Thu Nov 02 10:50:47 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:50:47 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:50:47 MSK 2017_/192.168.40.17_sended: false_0!!!pr
+Thu Nov 02 10:50:47 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 10:50:47 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 10:50:47 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 10:53:41 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 10:53:41 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 10:53:41 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 10:54:08 MSK 2017_/192.168.40.17_message: 0_in_u_Zichi_46792755!!!pr
+Thu Nov 02 10:54:08 MSK 2017_/192.168.40.17_split: [0, in, u, Zichi, 46792755, null]!!!pr
+Thu Nov 02 10:54:08 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:54:08 MSK 2017_/192.168.40.17_name coincided: Zichi!!!pr
+Thu Nov 02 10:54:08 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:54:08 MSK 2017_/192.168.40.17_password coincided: 46792755!!!pr
+Thu Nov 02 10:54:08 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:54:08 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:54:08 MSK 2017_/192.168.40.17_sended: true_1000!!!pr
+Thu Nov 02 10:55:43 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_view!!!pr
+Thu Nov 02 10:55:43 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, view, null]!!!pr
+Thu Nov 02 10:55:43 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:55:43 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:55:43 MSK 2017_/192.168.40.17_sended: Zichi_FRS_Nikolai!!!pr
+Thu Nov 02 10:55:55 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_pay_FRS!200!!!pr
+Thu Nov 02 10:55:55 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, pay, FRS!200]!!!pr
+Thu Nov 02 10:55:55 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 10:55:55 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 10:55:55 MSK 2017_/192.168.40.17_sended: true_800!!!pr
+Thu Nov 02 11:23:23 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 11:23:23 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 11:23:23 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:25:19 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:25:19 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:25:19 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:25:28 MSK 2017_/192.168.40.17_message: 0_in_u_Zichi_46792755!!!pr
+Thu Nov 02 11:25:28 MSK 2017_/192.168.40.17_split: [0, in, u, Zichi, 46792755, null]!!!pr
+Thu Nov 02 11:25:28 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:28 MSK 2017_/192.168.40.17_name coincided: Zichi!!!pr
+Thu Nov 02 11:25:28 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:28 MSK 2017_/192.168.40.17_password coincided: 46792755!!!pr
+Thu Nov 02 11:25:28 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:28 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:28 MSK 2017_/192.168.40.17_sended: true_800!!!pr
+Thu Nov 02 11:25:34 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_view!!!pr
+Thu Nov 02 11:25:34 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, view, null]!!!pr
+Thu Nov 02 11:25:34 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:34 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:34 MSK 2017_/192.168.40.17_sended: Zichi_FRS_Nikolai!!!pr
+Thu Nov 02 11:25:46 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_pay_\Nikolai!10!!!pr
+Thu Nov 02 11:25:46 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, pay, \Nikolai!10]!!!pr
+Thu Nov 02 11:25:46 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:25:46 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:25:46 MSK 2017_/192.168.40.17_sended: false_800!!!pr
+Thu Nov 02 11:25:55 MSK 2017_/192.168.40.17_closing!!!pr
+Thu Nov 02 11:25:55 MSK 2017_/192.168.40.17_closed!!!pr
+Thu Nov 02 11:25:55 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:25:55 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:25:55 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:29:45 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 11:29:45 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 11:29:45 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:30:31 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:30:31 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:30:31 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:30:40 MSK 2017_/192.168.40.17_message: 0_in_u_Zichi_46792755!!!pr
+Thu Nov 02 11:30:40 MSK 2017_/192.168.40.17_split: [0, in, u, Zichi, 46792755, null]!!!pr
+Thu Nov 02 11:30:40 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:40 MSK 2017_/192.168.40.17_name coincided: Zichi!!!pr
+Thu Nov 02 11:30:40 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:40 MSK 2017_/192.168.40.17_password coincided: 46792755!!!pr
+Thu Nov 02 11:30:40 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:40 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:40 MSK 2017_/192.168.40.17_sended: true_800!!!pr
+Thu Nov 02 11:30:44 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_view!!!pr
+Thu Nov 02 11:30:44 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, view, null]!!!pr
+Thu Nov 02 11:30:44 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:44 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:44 MSK 2017_/192.168.40.17_sended: Zichi_FRS_Nikolai!!!pr
+Thu Nov 02 11:30:58 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_pay_FRS!0!!!pr
+Thu Nov 02 11:30:58 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, pay, FRS!0]!!!pr
+Thu Nov 02 11:30:58 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:30:58 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:30:58 MSK 2017_/192.168.40.17_sended: false_800!!!pr
+Thu Nov 02 11:31:04 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_view!!!pr
+Thu Nov 02 11:31:04 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, view, null]!!!pr
+Thu Nov 02 11:31:04 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:31:04 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:31:04 MSK 2017_/192.168.40.17_sended: Zichi_FRS_Nikolai!!!pr
+Thu Nov 02 11:31:10 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_pay_Nikolai!20!!!pr
+Thu Nov 02 11:31:10 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, pay, Nikolai!20]!!!pr
+Thu Nov 02 11:31:10 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:31:10 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:31:10 MSK 2017_/192.168.40.17_sended: true_780!!!pr
+Thu Nov 02 11:31:47 MSK 2017_/192.168.40.17_closing!!!pr
+Thu Nov 02 11:31:47 MSK 2017_/192.168.40.17_closed!!!pr
+Thu Nov 02 11:31:47 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:31:47 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:31:47 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:32:56 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:32:56 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:32:56 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:33:01 MSK 2017_/192.168.40.17_message: 0_in_u_Zichi_46792755!!!pr
+Thu Nov 02 11:33:01 MSK 2017_/192.168.40.17_split: [0, in, u, Zichi, 46792755, null]!!!pr
+Thu Nov 02 11:33:01 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:01 MSK 2017_/192.168.40.17_name coincided: Zichi!!!pr
+Thu Nov 02 11:33:01 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:01 MSK 2017_/192.168.40.17_password coincided: 46792755!!!pr
+Thu Nov 02 11:33:01 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:01 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:01 MSK 2017_/192.168.40.17_sended: true_780!!!pr
+Thu Nov 02 11:33:06 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_view!!!pr
+Thu Nov 02 11:33:06 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, view, null]!!!pr
+Thu Nov 02 11:33:06 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:06 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:06 MSK 2017_/192.168.40.17_sended: Zichi_FRS_Nikolai!!!pr
+Thu Nov 02 11:33:12 MSK 2017_/192.168.40.17_message: 1_u_Zichi_46792755_pay_Nikolai!20!!!pr
+Thu Nov 02 11:33:12 MSK 2017_/192.168.40.17_split: [1, u, Zichi, 46792755, pay, Nikolai!20]!!!pr
+Thu Nov 02 11:33:12 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:12 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:12 MSK 2017_/192.168.40.17_sended: true_760!!!pr
+Thu Nov 02 11:33:30 MSK 2017_/192.168.40.17_closing!!!pr
+Thu Nov 02 11:33:30 MSK 2017_/192.168.40.17_closed!!!pr
+Thu Nov 02 11:33:30 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:33:30 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:33:30 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:33:54 MSK 2017_/192.168.40.17_message: 0_in_u_FRS_-915434323!!!pr
+Thu Nov 02 11:33:54 MSK 2017_/192.168.40.17_split: [0, in, u, FRS, -915434323, null]!!!pr
+Thu Nov 02 11:33:54 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:54 MSK 2017_/192.168.40.17_name coincided: FRS!!!pr
+Thu Nov 02 11:33:54 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:54 MSK 2017_/192.168.40.17_password coincided: -915434323!!!pr
+Thu Nov 02 11:33:54 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:33:54 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:33:54 MSK 2017_/192.168.40.17_sended: true_99098!!!pr
+Thu Nov 02 11:34:07 MSK 2017_/192.168.40.17_message: 1_u_FRS_-915434323_view!!!pr
+Thu Nov 02 11:34:07 MSK 2017_/192.168.40.17_split: [1, u, FRS, -915434323, view, null]!!!pr
+Thu Nov 02 11:34:07 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:08 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:08 MSK 2017_/192.168.40.17_sended: Zichi_FRS_Nikolai!!!pr
+Thu Nov 02 11:34:19 MSK 2017_/192.168.40.17_message: 1_u_FRS_-915434323_pay_Zichi!2000!!!pr
+Thu Nov 02 11:34:19 MSK 2017_/192.168.40.17_split: [1, u, FRS, -915434323, pay, Zichi!2000]!!!pr
+Thu Nov 02 11:34:19 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:19 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:19 MSK 2017_/192.168.40.17_sended: true_97098!!!pr
+Thu Nov 02 11:34:26 MSK 2017_/192.168.40.17_closing!!!pr
+Thu Nov 02 11:34:26 MSK 2017_/192.168.40.17_closed!!!pr
+Thu Nov 02 11:34:26 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:34:26 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:34:26 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:34:40 MSK 2017_/192.168.40.17_message: 0_in_u_Zichi_46792755!!!pr
+Thu Nov 02 11:34:40 MSK 2017_/192.168.40.17_split: [0, in, u, Zichi, 46792755, null]!!!pr
+Thu Nov 02 11:34:40 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:40 MSK 2017_/192.168.40.17_name coincided: Zichi!!!pr
+Thu Nov 02 11:34:40 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:40 MSK 2017_/192.168.40.17_password coincided: 46792755!!!pr
+Thu Nov 02 11:34:40 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 11:34:40 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 11:34:40 MSK 2017_/192.168.40.17_sended: true_2760!!!pr
+Thu Nov 02 11:37:02 MSK 2017_/192.168.40.17_closing!!!pr
+Thu Nov 02 11:37:02 MSK 2017_/192.168.40.17_closed!!!pr
+Thu Nov 02 11:37:02 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 11:37:02 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 11:37:02 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:49:25 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 11:49:25 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 11:49:25 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:55:07 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 11:55:07 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 11:55:07 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 11:55:22 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 11:55:22 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 11:55:22 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 12:17:47 MSK 2017_Key: port configed with value: 1912!!!ss
+Thu Nov 02 12:17:47 MSK 2017_SERVER STARTED!!!ss
+Thu Nov 02 12:17:47 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 12:18:56 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 12:18:56 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 12:18:56 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
+Thu Nov 02 12:19:01 MSK 2017_/192.168.40.17_message: 0_in_u_Zichi_46792755!!!pr
+Thu Nov 02 12:19:01 MSK 2017_/192.168.40.17_split: [0, in, u, Zichi, 46792755, null]!!!pr
+Thu Nov 02 12:19:01 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 12:19:01 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 12:19:02 MSK 2017_/192.168.40.17_name coincided: Zichi!!!pr
+Thu Nov 02 12:19:02 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 12:19:02 MSK 2017_/192.168.40.17_password coincided: 46792755!!!pr
+Thu Nov 02 12:19:02 MSK 2017_Key: clientList configed with value: ClientList!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: passFile configed with value: ClientPasswordHashes!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: clientBaseHashFileName configed with value: Hash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: keyfile configed with value: openKey.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: algorithm configed with value: DESede!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: passKeyfile configed with value: passwordOpenKey.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: passBaseHashFileName configed with value: PassHash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: cardUids configed with value: cardUids!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: CardUidsHashFileName configed with value: CardUidsHash!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: uidKeyFile configed with value: uidKeyFile.key!!!ss
+Thu Nov 02 12:19:02 MSK 2017_Key: EXIT_IF_BASE_CHANGED configed with value: true!!!ss
+Thu Nov 02 12:19:02 MSK 2017_/192.168.40.17_sended: true_2760!!!pr
+Thu Nov 02 12:19:05 MSK 2017_/192.168.40.17_closing!!!pr
+Thu Nov 02 12:19:05 MSK 2017_/192.168.40.17_closed!!!pr
+Thu Nov 02 12:19:05 MSK 2017_One more client connected.!!!ss
+Thu Nov 02 12:19:05 MSK 2017_/192.168.40.17_STARTED!!!pr
+Thu Nov 02 12:19:05 MSK 2017_Socket configuration: adders = hatifnat/192.168.43.147 port = 1912!!!ss
