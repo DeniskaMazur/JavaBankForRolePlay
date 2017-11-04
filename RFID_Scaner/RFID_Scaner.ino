@@ -34,7 +34,9 @@ void loop() {
     b = mfrc522.uid.uidByte[i];
     a = a * 256 + b;
   }
-  Serial.println(a);
+  Serial.print(a);
+  Serial.print('!');
+  delay(1000);
 }
 
 
