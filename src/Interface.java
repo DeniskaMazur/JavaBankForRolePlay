@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.IOException;
 import java.text.NumberFormat;
 
 public class Interface extends JFrame{
@@ -12,6 +13,9 @@ public class Interface extends JFrame{
     private static final Font normalFont = new Font("Serif", Font.BOLD, 15);
     private static final Font bigFont = new Font("Serif", Font.BOLD, 30);
     private static final Font extraBigFont = new Font("Serif", Font.BOLD, 100);
+    private static String currentname;
+    private static String currentPassword;
+    private static ClientLogic logic = new ClientLogic("192.168.20.206", 1912);
 
     public Interface(){
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,23 +26,29 @@ public class Interface extends JFrame{
         addComponentsToPane(getContentPane());
     }
 
-    private void checkLogIn(String name, int balance, String password){
+    private void checkLogIn(String name , String password){
         clear();
-        String line = "false_0";
+        String answer = "false_0";
+        boolean log = true;
 
-        //Обращение к API
-        /*try {
-            Socket s = new Socket(InetAddress.getByName("192.168.42.134"), 1912);
-            PrintWriter out = new PrintWriter(new OutputStreamWriter(s.getOutputStream()));
-            BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
-            out.println("0_in_u_" + name + "_" + password);
-            out.flush();
-            while (!in.ready()){}
-            line = in.readLine();
-        }catch (IOException e){e.printStackTrace();}*/
+        try {
+            answer = logic.checkPassword(name, password);
+        }catch (IOException e){e.printStackTrace();}
 
-        drawAccountStage(name, balance, getContentPane());
+        currentname = name;
+        currentPassword = password;
+
+        log = answer.split("_")[0].equals("true");
+
+        if (!log){
+            JOptionPane.showInternalMessageDialog(getContentPane(), "Ошибка входа");
+            addComponentsToPane(getContentPane());
+        }else {
+            drawAccountStage(currentname, Integer.parseInt(answer.split("_")[1]), getContentPane());
+        }
+
         refresh();
+
     }
 
     public void drawAccountStage(String name, int balance, Container pane){
@@ -161,7 +171,7 @@ public class Interface extends JFrame{
         in.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                checkLogIn(name.getText(), 100, String.valueOf(pass.getPassword()));
+                checkLogIn(name.getText(), String.valueOf(pass.getPassword()));
             }
         });
 
@@ -216,11 +226,20 @@ public class Interface extends JFrame{
         ok.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (!sum.getText().equals(""))
-                    drawAccountStage("иван", 90, pane);
-                    JOptionPane.showInternalMessageDialog(getContentPane(), "Перевод " + sum.getValue().toString() +
+                String answer = null;
+                if (!sum.getText().equals("")) {
+                    try {
+                        answer = logic.pay(currentname, currentPassword, users.getSelectedItem().toString(), Integer.parseInt(sum.getValue().toString()));
+                    }catch (IOException i){i.printStackTrace();}
+                    boolean suc = answer.split("_")[0].equals("true");
+                    if (suc){ JOptionPane.showInternalMessageDialog(getContentPane(), "Перевод " + sum.getValue().toString() +
                         " лордов пользователю " + users.getSelectedItem().toString() + " прошел успешно.",
-                            "ЧЕК", JOptionPane.INFORMATION_MESSAGE);
+                            "ЧЕК", JOptionPane.INFORMATION_MESSAGE);} else {
+                        JOptionPane.showInternalMessageDialog(getContentPane(), "Перевод не состоялся.",
+                                "ЧЕК", JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    drawAccountStage(currentname, Integer.parseInt(answer.split("_")[1]), pane);
+                }
             }
         });
 
@@ -324,7 +343,7 @@ public class Interface extends JFrame{
     private void goIfEnter(KeyEvent e, JTextField name, JTextField pass){
         if ((e.getKeyChar() == 10) &&
                 !name.getText().equals("") &&
-                !pass.getText().equals("")) checkLogIn(name.getText(), 100, pass.getText());
+                !pass.getText().equals("")) checkLogIn(name.getText(), pass.getText());
     }
 
 }

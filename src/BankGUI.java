@@ -1,4 +1,4 @@
-public class Tests{
+public class BankGUI{
 
     private static void createAndShowGUI() {
         Interface bank = new Interface();
