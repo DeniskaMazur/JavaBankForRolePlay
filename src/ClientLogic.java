@@ -1,5 +1,3 @@
-import jssc.SerialPort;
-
 import java.io.*;
 import java.net.*;
 
@@ -55,28 +53,6 @@ public class ClientLogic implements ServerGuiBuffer {
     public String changePassword(String username, String password, String newPassword) throws IOException {
         out.println("1_u_" + username + "_" + password + "_change_" + newPassword);
         return in.readLine();
-    }
-
-    public String getRfid() {
-        String rfid = "";
-        try{
-            SerialPort serialPort = new SerialPort("/dev/cu.usbmodem1411");
-            //Открываем порт
-            serialPort.openPort();
-            //Выставляем параметры
-            serialPort.setParams(SerialPort.BAUDRATE_9600,
-                    SerialPort.DATABITS_8,
-                    SerialPort.STOPBITS_1,
-                    SerialPort.PARITY_NONE);
-            String serialData = "";
-            while (!serialData.equals("!")) {
-                serialData = serialPort.readString(1);
-                rfid += serialData;
-                rfid = rfid.replaceAll("!", "");
-            }
-
-        } catch (Exception e) {e.printStackTrace();}
-        return rfid;
     }
 
 }
